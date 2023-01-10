@@ -18,7 +18,7 @@ st.title("Decision Tree Hyper Parameter Tuning")
 
 st.header("In this website, you just have change the parameters to get different accuracies on training data and test data to compare. Just cahnge the parameters as per your choice and observe the accuracies.")
 
-data=pd.read_excel("C:\\Users\\Karan\\DBS Codes\\Decision Tree Hyper-parameter tuning Streamlit\\HR_data.xlsx")
+data=pd.read_excel("HR_data.xlsx")
 data["Sales_Occured"]=le.fit_transform(data["Sales_Occured"])
 data["salary"]=le.fit_transform(data["salary"])
 
