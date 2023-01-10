@@ -36,7 +36,7 @@ if depth==0:
 split=st.sidebar.selectbox("Select any option for best splitting options",["best","random"])
 sample=st.sidebar.slider("Select the Minimum Splits",min_value=2,max_value=20,step=1)
 features=st.sidebar.slider("Select the number of features",min_value=1,value=9,max_value=9,step=1)
-max_leaf=st.sidebar.slider("Select the Max Number of Leaf Nodes", min_value=0,max_value=10,step=1)
+max_leaf=st.sidebar.slider("Select the Max Number of Leaf Nodes", min_value=0,max_value=10,step=2)
 if max_leaf==0:
     max_leaf=None
         
