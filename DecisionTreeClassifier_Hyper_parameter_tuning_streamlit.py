@@ -15,7 +15,7 @@ warnings.filterwarnings('ignore')
 
 st.title("Decision Tree Hyper Parameter Tuning")
 
-st.header("In this website, you just have change the parameters to get different accuracies on training data and test data to compare. Just cahnge the parameters as per your choice and observe the accuracies.")
+st.header("In this website, you just have change the parameters to get different accuracies on training data and test data to compare. Just change the parameters as per your choice and observe the accuracies.")
 
 data=pd.read_excel("HR_data.xlsx")
 data["Sales_Occured"]=le.fit_transform(data["Sales_Occured"])
